@@ -1,9 +1,11 @@
 <section class="container-fluid">
     <div class="row">
         <div class="col-12">
-            <h1>Pet shop</h1>
+            <ul class="d-flex list-unstyled">
 
-            <ul>
+                <li class="me-5">
+                    <h1>Pet shop</h1>
+                </li>
 
                 <li>
                     <a href="{{@route("home")}}">Home</a>

@@ -1,0 +1,17 @@
+header {
+  background: radial-gradient(rgb(216, 161, 42), #ae531a);
+  padding: 2rem 1rem;
+}
+header ul li {
+  align-self: baseline;
+}
+header ul li h1 {
+  text-transform: uppercase;
+}
+header ul li a {
+  color: black;
+  font-size: 1.4rem;
+  padding: 0 0.5rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}

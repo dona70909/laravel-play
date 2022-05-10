@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/assessment', 'AssessmentController@index');
+//Route::get('/assessment', 'AssessmentController@index');
 
 
 Route::get('/', function () {

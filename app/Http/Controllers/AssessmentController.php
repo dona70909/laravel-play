@@ -7,7 +7,9 @@ use Illuminate\Http\Request;
 class AssessmentController extends Controller
 {
     public function index()
-    {        
-        return view('guest.assessment');
+
+    {
+        $array = [1,2,2];
+        return $array;
     }
 }

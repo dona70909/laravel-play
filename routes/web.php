@@ -14,12 +14,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-//Route::get('/assessment', 'AssessmentController@index');
 
 
 Route::get('/', function () {
-    return view('guest.home');
-})->name("home");
+    $shop_products = config("shop_products");
+    return view('guest.home',["products" => $shop_products]);
+})->name("home"); 
 
 Route::get('/login', function () {
     return view('guest.login');

@@ -1,7 +1,8 @@
 <?php
 
     
-
+    /* namespace App\Classes; */
+   
     class Customer  {
 
         const DISCOUNT = 20;

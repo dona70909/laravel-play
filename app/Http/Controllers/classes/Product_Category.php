@@ -1,5 +1,5 @@
 <?php 
-
+/* namespace App\Classes; */
 
 
 class Product_Category  {

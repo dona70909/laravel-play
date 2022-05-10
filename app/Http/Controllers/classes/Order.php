@@ -1,4 +1,7 @@
 <?php
+
+/* namespace App\Classes; */
+
     class Order {
         
         protected $number_order;

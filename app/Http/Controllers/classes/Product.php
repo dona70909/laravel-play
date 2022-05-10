@@ -1,4 +1,8 @@
 <?php
+
+/* namespace App\Classes; */
+
+
     class Product extends Product_Category {
 
         protected $name_product;

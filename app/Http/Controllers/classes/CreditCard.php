@@ -1,5 +1,8 @@
 
 <?php
+
+    /* namespace App\Classes; */
+    
     class CreditCard  {
 
         protected $number;

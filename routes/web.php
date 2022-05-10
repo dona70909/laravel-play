@@ -14,6 +14,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::get('/assessment', 'AssessmentController@index');
+
+
 Route::get('/', function () {
     return view('guest.home');
 })->name("home");

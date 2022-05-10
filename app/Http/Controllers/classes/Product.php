@@ -1,6 +1,6 @@
 <?php
 
-    namespace App\Classes;
+    namespace app\classes;
     class Product extends Product_Category {
 
         protected $name_product;

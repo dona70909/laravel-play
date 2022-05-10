@@ -4,8 +4,7 @@
         <div class="col-12">
             ciao sono il main product
 
-            @php 
-               
+            @php
             @endphp
         </div>
     </div>

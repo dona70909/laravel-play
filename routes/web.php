@@ -17,8 +17,8 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::get('/', function () {
-    $shop_products = config("shop_products");
-    return view('guest.home',["products" => $shop_products]);
+    //$shop_products = config("shop_products");
+    return view('guest.home');
 })->name("home"); 
 
 Route::get('/login', function () {

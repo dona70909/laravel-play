@@ -5,7 +5,7 @@
             ciao sono il main product
 
             @php 
-                var_dump($shop_products[0]);
+               
             @endphp
         </div>
     </div>

@@ -1,13 +1,15 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace app\Http\Controllers;
+use Illuminate\Http\Request;
 
-//use Illuminate\Http\Request as Controller;
-use  app\classes\CreditCard;
-use app\classes\Customer;
-use app\classes\Product;
-use app\classes\Product_Category;
-use app\classes\Order;
+use app\Http\Controllers\classes;
+use app\Http\Controllers\classes\CreditCard;
+use app\Http\Controllers\classes\Customer;
+use app\Http\Controllers\classes\Product;
+use app\Http\Controllers\classes\Product_Category;
+use app\Http\Controllers\classes\Order;
+
 
 class PetShop 
 {

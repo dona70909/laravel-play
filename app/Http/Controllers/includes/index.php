@@ -1,5 +1,5 @@
 <?php 
-    //include 'autoload.php';
+    include 'autoload.php';
 
     $croccantini = new Product("Food","Croccantini di manzo","none",25);
     $card = new CreditCard(123443214567,200,2024);

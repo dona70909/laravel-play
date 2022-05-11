@@ -18,7 +18,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/',[PetShop::class, 'createArray'],function () {
+Route::get('/',[PetShop::class, 'createProducts'],function () {
 })->name("home");
 
 

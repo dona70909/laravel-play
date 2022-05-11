@@ -8,7 +8,9 @@
                 </div>
                 <div class="card-body">
                     <h5 class="card-title text-center text-uppercase">{{$product->getNameProduct()}}</h5>
-                    <p class="card-text m-0 p-0">{{$product->getDescription()}}</p>
+                    <p class="card-text m-0 p-0">Category: {{$product->getNameCategory()}}</p>
+                    <p class="card-text m-0 p-0 my-description">{{$product->getDescription()}}</p>
+                    <strong>Price {{$product->getPrice()}}£</strong>
                 </div>
             </div>
         @endforeach

@@ -86,7 +86,7 @@
 
             if($this->discount > 0) {
 
-                $price =  $product->getPrice() / 100 * $this->getDiscount(); 
+                $price = $product->getPrice() - $product->getPrice() * $this->getDiscount() / 100; 
                 $product->setPrice($price);
                 $balance =  $this->credit_card->getBalance() - $product->getPrice();
                 $this->credit_card->setBalance($balance);
@@ -97,6 +97,22 @@
                 $balance = $this->credit_card->getBalance() - $product->getPrice();
                 return "Transazione approvata, non hai ricevuto nessuno sconto e hai speso ";
             } 
+        }
+
+        /**
+         * Get the value of user_name
+         */ 
+        public function getUser_name()
+        {
+            return $this->user_name;
+        }
+
+        /**
+         * Get the value of user_lastname
+         */ 
+        public function getUser_lastname()
+        {
+            return $this->user_lastname;
         }
     }
 

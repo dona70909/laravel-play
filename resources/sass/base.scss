@@ -24,5 +24,9 @@ main {
     .my-product-card-container {
         gap: 1rem 2rem;
         justify-content: center;
+
+        .my-description {
+            font-size: .9rem;
+        }
     }
 }

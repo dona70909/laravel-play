@@ -1,7 +1,6 @@
 <?php
 
     namespace App\Http\Controllers\classes; 
-
     class Order {
         
         protected $number_order;

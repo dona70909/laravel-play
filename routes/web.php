@@ -28,8 +28,8 @@ Route::get('/login', function () {
 })->name("login");
 
 
-Route::get('/basket', function () {
-    return view('guest.basket');
+Route::get('/basket',[PetShop::class, 'createOrder'], function () {
+    //return view('guest.basket');
 })->name("basket");
 
 

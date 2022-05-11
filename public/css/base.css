@@ -20,3 +20,6 @@ main .my-product-card-container {
   gap: 1rem 2rem;
   justify-content: center;
 }
+main .my-product-card-container .my-description {
+  font-size: 0.9rem;
+}

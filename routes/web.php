@@ -1,6 +1,10 @@
 <?php
 
+use Illuminate\Support\Facades\Auth;
+use App\Http\Controllers\PetShop;
+use App\Http\Controllers\classes\Product;
 use Illuminate\Support\Facades\Route;
+
 
 
 /*
@@ -14,16 +18,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-//Route::get('/assessment', 'AssessmentController@index');
-
-
-Route::get('/','PetShop@createArray',function () {
-
-    //$products = 'PetShop@createArray';
-    //$products = config("products");
-    [PetShop::class, 'createArray'];
-    return view('guest.home',['products' => 'PetShop@createArray' ]);
+Route::get('/',[PetShop::class, 'createArray'],function () {
 })->name("home");
+
+
 
 Route::get('/login', function () {
     return view('guest.login');

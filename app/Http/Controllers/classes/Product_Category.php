@@ -1,6 +1,6 @@
 <?php 
 
-namespace app\Http\Controllers\classes; 
+namespace App\Http\Controllers\classes; 
 class Product_Category  {
 
     protected $name_category;

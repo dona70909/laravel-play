@@ -15,3 +15,8 @@ header ul li a {
   text-decoration: none;
   text-transform: uppercase;
 }
+
+main .my-product-card-container {
+  gap: 1rem 2rem;
+  justify-content: center;
+}

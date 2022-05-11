@@ -15,7 +15,18 @@ class PetShop extends Controller
     public static function createArray() {
 
         
-        $products = new Product("food","crocchette","none",23);
+        $products = [
+            new Product("food","crocchette","none",23),
+            new Product("food","crocchette","none",23),
+            new Product("food","crocchette","none",23),
+            new Product("food","crocchette","none",23),
+            new Product("food","crocchette","none",23),
+            new Product("food","crocchette","none",23),
+            new Product("food","crocchette","none",23),
+            new Product("food","crocchette","none",23),
+            new Product("food","crocchette","none",23),
+            new Product("food","crocchette","none",23),
+        ];
         //$products = ["pro","sad"];
         return  view('guest.home',compact('products'));
     }

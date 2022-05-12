@@ -46,7 +46,7 @@
 
         public function getBalance()
         {
-            return $this->credit_card->getBalance() . '€';
+            return $this->credit_card->getBalance() . '£';
         }
 
 
